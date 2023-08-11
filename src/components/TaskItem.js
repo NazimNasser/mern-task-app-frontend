@@ -12,7 +12,7 @@ const TaskItem = ({
 }) => {
     return (
         <div key={task._id} className="w-1/4 md:w-1/2 sm:w-full px-2 mb-4">
-            <div className="border p-4 rounded-lg bg-gray-100">
+            <div className="border p-4 rounded-lg bg-[#fdfdfd] shadow-md">
 
                 {isEditing ? (
                     <>
